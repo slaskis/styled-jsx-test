@@ -4,11 +4,13 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
-    "next": "^4.0.0-beta.6",
+    "next": "^4.0.3",
     "react": "16",
     "react-dom": "16"
   },
   "scripts": {
-    "dev": "next dev"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   }
 }

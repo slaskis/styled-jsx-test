@@ -6,9 +6,9 @@ import { blue as b } from "../lib/colors";
 
 export default () => (
   <div>
-    PAGE 1{" "}
-    <Link href="/two">
-      <a>Back to 2</a>
+    PAGE 2{" "}
+    <Link href="/">
+      <a>Back to 1</a>
     </Link>
     <Orange />
     <Blue />
