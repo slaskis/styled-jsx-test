@@ -22,6 +22,7 @@ export default () => (
     <Color color="gray" />
     <Color color={Colors.red} />
     <Color color={b} />
+    <Empty />
     {["teal", "gold"].map(c => <Color key={c} color={c} />)}
   </div>
 );
@@ -30,6 +31,12 @@ const Orange = () => (
   <div className="orange">
     Hello (i should be orange)
     <style jsx>{orange}</style>
+  </div>
+);
+
+const Empty = () => (
+  <div>
+    <style jsx>{``}</style>
   </div>
 );
 
